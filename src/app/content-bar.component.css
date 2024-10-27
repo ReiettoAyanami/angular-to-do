@@ -1,0 +1,49 @@
+div{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    
+}
+div > mat-icon{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    transform: translateY(-50%);
+    justify-content: center;
+    height: max-content;
+    text-align: left;
+    transition: color .25s cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+
+div > mat-icon:hover{
+
+    color: #7cc5be;
+    transition: color .25s cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+
+.display-text{
+    
+    color: rgb(59, 59, 59);
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    font-size: 2em;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    text-align: left;
+    font-weight: 600;
+    /* background-color: aqua; */
+
+    /* border: 2px solid; */
+    
+
+}

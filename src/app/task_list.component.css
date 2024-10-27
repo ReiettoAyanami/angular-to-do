@@ -1,0 +1,88 @@
+.task-list-component{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+
+content-bar{
+
+    display: flex;
+    position: relative;
+    margin-bottom: 2%;
+
+    
+}
+
+.task-list-drag-drop{
+
+
+    height: 100%;
+
+}
+
+
+.cdk-drop-list{
+
+    height: 100%;
+    position: relative;
+    background-color: #69a59e;
+    overflow-y: auto;
+    border-radius: .5dvw;
+    /* border: 1px solid #324e4bb6; */
+    padding: 10px;
+
+    
+    
+
+}
+
+.cdk-drop-list::-webkit-scrollbar{
+
+    width: .5dvw;
+    
+}
+
+.cdk-drop-list::-webkit-scrollbar-track{
+
+    /* background: red; */
+    margin-top : .5dvw;
+    margin-bottom: .5dvw;
+    margin-right: .5dvw;
+
+
+
+}
+
+.cdk-drop-list::-webkit-scrollbar-thumb{
+
+    
+    width: 100%;
+    background: rgb(59, 59, 59);
+    border-radius: .5dvw;
+    border: 3px solid rgba(0, 0, 0, 0);
+    background-clip: content-box;
+}
+
+.cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+
+.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+
+
+app-task{
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+

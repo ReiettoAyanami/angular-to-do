@@ -1,0 +1,45 @@
+
+body{
+
+    background-color: #d2f3ef;
+
+
+}
+.main-content{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #d2f3ef; 
+    width: 50dvw;
+    height: 50dvh;
+    min-width: 400px;
+    min-height: calc((400px * 9) /16);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: .5%;
+    border-radius: 1dvw;
+    -webkit-box-shadow: 0px 0px 22px 4px rgba(2, 53, 37, 0.336); 
+    box-shadow: 0px 0px 22px 4px rgba(2, 53, 37, 0.336);
+    
+}
+
+.lists-container{
+
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    width: 100%;
+    
+    
+}
+
+app-tasklist{
+
+    
+    flex: 0 1 50%;
+    max-width: 50% !important;
+    margin: 1%;
+    
+}

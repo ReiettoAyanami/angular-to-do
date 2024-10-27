@@ -1,0 +1,49 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 4px;
+    padding: 4px;   
+    background-color: #abd4d0;
+    min-height: 3em;
+    max-height: max-content;
+
+    border-radius: .25dvw;
+    word-break: break-all;
+    transition: background-color .25s ease;
+    color: rgb(59, 59, 59);
+    vertical-align: middle;
+    
+
+}
+
+.item > span{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.item:hover{
+
+    background-color:#b5dfda;
+    transition: background-color .25s ease;
+
+
+}
+
+.item > mat-icon{
+
+    align-self: center;
+    position: relative;
+    min-width: 10%;
+
+
+}
+
+.cdk-drag-animating {
+    background-color:#b5dfda;
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+
